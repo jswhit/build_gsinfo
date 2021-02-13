@@ -1,0 +1,36 @@
+These are the historical satinfo files that should be used with retrospective 
+FV3 Beta runs.  Dates refer to the first cycle for which the file should be used.
+
+global_satinfo.txt is the base satinfo file, i.e., the one that should be 
+implemented (at least until CrIS and ATMS from N20 are turned on). Differences in this file relative to current operations are:
+
+AMSUA Ch 15 (all satellites): error_cld increased to 18.0 from 15.0
+Turn on IASI water vapor channels 2889, 2958, 2993, 3002, 3049, 3105, 3110, 5381, 5399, 5480
+Switch off AMSU-A Aqua channel 6 
+ATMS switched to cloudy radiances (channel 1-7, 16-22)
+CrIS_NPP replaced with CrIS-FSR_NPP
+Turn on Saphir
+
+global_satinfo.txt.2018021212 is a copy of global_satinfo.txt
+
+global_satinfo.txt.2017103118 replaces CrIS-FSR_NPP with CrIS_NPP (aka CrIS NSR)
+
+global_satinfo.txt.2017031612: turn on SSMIS F17 Ch 2
+
+global_satinfo.txt.2017030812: turn off ATMS
+
+global_satinfo.txt.2016110812: turn on ATMS (ex Ch 15)
+
+global_satinfo.txt.2016090912: turn on channnels 2-6,15 for Metop-B AMSU-A
+
+global_satinfo.txt.2016020312: Turn on Metop-A HIRS Ch 2-15
+
+global_satinfo.txt.2016011912: Turn off MetOp-A HIRS
+
+global_satinfo.txt.2015111012: Turn on Metop-A HIRS Ch 2-15
+
+global_satinfo.txt.2015100118: Turn on IASI,AIRS and CrIS HCN channels
+
+global_satinfo.txt.2015070218: Turn on NOAA-18 AMSU-A Chs 5 and 8.
+
+global_satinfo.txt.2015011412: Turn on F18 SSMIS (Chs 1-7, 24)
