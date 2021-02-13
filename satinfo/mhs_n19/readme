@@ -1,0 +1,2 @@
+n19  20091215 000000  20150114 060000  mhs    5  1 2 3 4 5                                         # start date as other instruments: Merra doesn't assimilate mhs-n19
+n19  20150114 120000  21001231 240000  mhs    4  1 2   4 5                                         # turn off channel 3 as in operational satinfo
