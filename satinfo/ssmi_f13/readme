@@ -1,0 +1,5 @@
+# from MERRA2 (not assimilated NCEP)
+f13  19950503 000000  20080430 240000  ssmi 7  1 2 3 4 5 6 7
+f13  20080501 000000  20080822 240000  ssmi 6  1 2 3 4 5 6    # there was an anomaly in Ch7 for this period, reason unknown.  It's apparent in
+                                                              # cost and also in SSMI Wentz v7 validation document
+f13  20080823 000000  20091104 240000  ssmi 7  1 2 3 4 5 6 7
