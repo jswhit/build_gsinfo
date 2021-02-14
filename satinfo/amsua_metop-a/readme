@@ -1,0 +1,5 @@
+metop-a 20070521 000000  20090115 060000  amsua 15  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+# turn off ch 7 as in Merra
+metop-a 20090115 120000  20140926 120000  amsua 14  1 2 3 4 5 6   8 9 10 11 12 13 14 15
+# turn off ch 8 as in operational satinfo (Merra earlier: 20140101)
+metop-a 20140926 180000  21001231 240000  amsua 13  1 2 3 4 5 6     9 10 11 12 13 14 15            
