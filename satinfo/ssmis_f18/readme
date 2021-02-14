@@ -1,0 +1,6 @@
+# from MERRA2
+# DMSP-18
+f18  20091215 000000  29991231 240000 ssmis   0
+f18  20091215 000000  29991231 240000 ssmis   0
+f18  20091215 000000  29991231 240000 ssmis   0
+# not used in ncep operations either

@@ -1,0 +1,6 @@
+# from MERRA2
+# DMSP-16
+f16  20031104 000000  29991231 240000 ssmis   0          # All observations off for MERRA-2
+f16  20031104 000000  29991231 240000 ssmis   0          #   - as of (20 Nov 13)
+f16  20031104 000000  29991231 240000 ssmis   0          # Can be switched on at a later date.
+# not used in ncep operations either
