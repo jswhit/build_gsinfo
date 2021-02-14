@@ -5,3 +5,4 @@ can cris-fsr be started earlier? (launch was 201711)
 should amsua_aqua 8-13 really be assimilated? (nasa turned off in 2016)
 why was seviri_m08 turned on in 2019?
 why was sndrD*_g13 not assimilated at NCEP, but is at NASA?
+MERRA assimilated SSMI, CFSR did not - should we?
