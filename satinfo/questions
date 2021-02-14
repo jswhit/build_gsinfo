@@ -7,4 +7,4 @@ why was seviri_m08 turned on in 2019?
 why was sndrD*_g13 not assimilated at NCEP, but is at NASA?
 MERRA assimilated SSMI, CFSR did not - should we?
 should ssmis_f17 be assimilated earlier? (started 2015, goes back 2006)
-unused: gmi_gpm,iasi_metop-c,avhrr3_metop-c,amsr2_gcom-w1,amsre_aqua,abi_g17
+unused: trimm_tmi,gmi_gpm,iasi_metop-c,avhrr3_metop-c,amsr2_gcom-w1,amsre_aqua,abi_g17
