@@ -1,3 +1,5 @@
+up to date version at: https://www.emc.ncep.noaa.gov/emc/pages/infrastructure/obs-data/prepbufr.doc/table_2.php
+
 howing current operational usage of PREPBUFR data in GBL-GSI – 1/28/2015- still not completely up-to-date
 
 - /nwprod/obsproc_prep.v3.1.0/exec/prepobs_prepdata 
