@@ -1,6 +1,3 @@
-#  read(lunin,'(I5,1x,A20,1x,I5,2e15.6,1x,I5/2(4x,10f12.6/))',iostat=istat,end=1333)
-#  ich,isis,ichan,tlapm,tsum,ntlapupdate,(predr(ip),ip=1,npred)
-# open old satbias file
 import sys
 fin = sys.argv[1] # read satinfo
 fout = 'bias'
