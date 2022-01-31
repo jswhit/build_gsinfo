@@ -1,7 +1,8 @@
+# create empty bias correction files from a satinfo file
 import sys
 fin = sys.argv[1] # read satinfo
-fout = 'bias'
-fout2= 'bias_pc'
+fout = 'zero_bias'
+fout2= 'zero_bias_pc'
 f = open(fin); fo = open(fout,'w'); fo2 = open(fout2,'w')
 ich = 1
 for line in f:
