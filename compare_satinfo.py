@@ -1,6 +1,6 @@
 import sys
-satinfo1 = open(sys.argv[1])
-satinfo2 = open(sys.argv[2])
+satinfo1 = open(sys.argv[1]) # satinfo file built by create_satinfo.sh
+satinfo2 = open(sys.argv[2]) # reference satinfo file
 satinfo_dict1={}
 for line in satinfo1:
     if not line.startswith('#'):
@@ -26,3 +26,10 @@ for k in k1:
             print(k)
             print('satinfo1:',satinfo_dict1[k])
             print('satinfo2:','**missing**')
+for k in k2:
+    if k not in k1:
+        if satinfo_dict2[k].split()[2] != '-1':
+            print(k)
+            print('satinfo1:','**missing**')
+            print('satinfo2:',satinfo_dict2[k])
+
