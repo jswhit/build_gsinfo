@@ -1,4 +1,4 @@
 # chan 14 should be used with no bias correction (as for atms)
 n18  20051101 000000  20071114 240000  amsua 15  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15             # start date as in CFSR and Merra
 n18  20071115 000000  20151001 120000  amsua 14  1 2 3 4 5 6 7 8   10 11 12 13 14 15             # channel  9 off per CFSR
-n18  20151001 180000  21001231 240000  amsua 12  1 2 3 4   6 7     10 11 12 13 14 15             # Channels 5 & 8 off in global_satinfo.txt.2015100118 (Merra different)
+n18  20151001 180000  21001231 240000  amsua 13  1 2 3 4   6 7 8   10 11 12 13 14 15             # channel  5 off per NCEP ops
