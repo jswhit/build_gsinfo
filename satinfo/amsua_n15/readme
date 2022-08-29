@@ -1,8 +1,8 @@
 # chan 14 no bias correction (iuse=4)
 n15  19981101 000000  19990101 000000  amsua 15  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
 n15  19990101 060000  19990101 060000  amsua  0							# off due to noisy (as in Merra and CFSR)
-n15  19990101 120000  20001029 240000  amsua 15  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15   		# channel 11 off (as in CFSR; Merra turns it off 20020401)
-n15  20001030 000000  20020410 240000  amsua 14  1 2 3 4 5 6 7 8 9 10    12 13 14 15  		
-n15  20020411 000000  20020423 240000  amsua  0                                                  # off as in CFSR (not in Merra)
-n15  20020424 000000  20141015 120000  amsua 15  1 2 3 4 5 6 7 8 9 10    12 13 14 15          
+n15  19990101 120000  20001029 240000  amsua 15  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15   		
+n15  20001030 000000  20020410 240000  amsua 14  1 2 3 4 5 6 7 8 9 10    12 13 14 15  		# channel 11 off (as in CFSR; Merra turns it off 20020401)
+n15  20020411 000000  20020423 240000  amsua  0                                                 # off as in CFSR (not in Merra)
+n15  20020424 000000  20141015 120000  amsua 14  1 2 3 4 5 6 7 8 9 10    12 13 14 15          
 n15  20141015 180000  21001231 240000  amsua 13  1 2 3 4 5   7 8 9 10    12 13 14 15            # Channel 6 off per NCEP page and versioned GSI satinfo (in Merra turned off 20141018)
