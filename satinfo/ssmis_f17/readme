@@ -1,8 +1,9 @@
-# from MERRA2
 # DMSP-17
-#f17  20061212 000000  29991231 240000 ssmis   0
-#f17  20061212 000000  29991231 240000 ssmis   0
-#f17  20061212 000000  29991231 240000 ssmis   0
-# from operational satinfo
-f17  20150114 120000  20171031 120000 ssmis   6   1  2        5  6  7      24        # start as in operational satinfo (Merra different)
-f17  20171031 180000  29991231 240000 ssmis   5   1           5  6  7      24        # turn off ch 3 as in operational satinfo
+# NASA assimilates 3,5-7,23,24 ch 3 turned off 2015080600
+# ncep assimilating 1,5-7 and 24 currently and has been since 2015011412 (also ch 2 earlier in the period)
+f17  20061212 000000  20150806 000000 ssmis   4        3     5  6  7         
+f17  20061212 000000  20150806 000000 ssmis   0
+f17  20061212 000000  20150806 000000 ssmis   2       23 24
+f17  20150806 060000  29991231 240000 ssmis   3              5  6  7         # large bias in ch3
+f17  20150806 060000  29991231 240000 ssmis   0
+f17  20150806 060000  29991231 240000 ssmis   2       23 24
