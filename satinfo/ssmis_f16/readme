@@ -1,6 +1,9 @@
 # from MERRA2
-# DMSP-16
-f16  20031104 000000  29991231 240000 ssmis   0          # All observations off for MERRA-2
-f16  20031104 000000  29991231 240000 ssmis   0          #   - as of (20 Nov 13)
-f16  20031104 000000  29991231 240000 ssmis   0          # Can be switched on at a later date.
+# DMSP-16 all obs off for MERRA-2, Should it be switched on?
 # not used in ncep operations either
+f16  20031104 000000  29991231 240000 ssmis   0          
+
+# could do this instead
+#f16  20031104 000000  20130424 240000 ssmis   6     2  3  4  5  6  7  # 56.4GHz oscillator failure 20130425 - no T channels after that date 
+# or this ..?
+#f16  20031104 000000  20130424 240000 ssmis   3    22 23 24
