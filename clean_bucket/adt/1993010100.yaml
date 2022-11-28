@@ -1,0 +1,111 @@
+aws_s3:
+     adt.cryosat2:
+
+          # Define the path attributes.
+          local_path: !ENV ${WORKrnr}/${EXPTrnr}/${CYCLE}/intercom/inputs/obs/ocean/cryosat2.adt.iodav2.nc
+          offset_seconds: 21600
+
+          # Define the AWS s3 attributes.
+          bucket: noaa-reanalyses-pds
+          object_path: observations/reanalysis/adt/cryosat2/%Y/%m/iodav2/cryosat2.adt.%Y%m%d.T120000Z.iodav2.nc
+          profile_name: Null
+          ignore_missing: True
+
+     adt.ers1:
+
+          # Define the path attributes.
+          local_path: !ENV ${WORKrnr}/${EXPTrnr}/${CYCLE}/intercom/inputs/obs/ocean/ers1.adt.iodav2.nc
+          offset_seconds: 21600
+
+          # Define the AWS s3 attributes.
+          bucket: noaa-reanalyses-pds
+          object_path: observations/reanalysis/adt/ers1/%Y/%m/iodav2/ers1.adt.%Y%m%d.T120000Z.iodav2.nc
+          profile_name: Null
+          ignore_missing: True
+
+     adt.ers2:
+
+          # Define the path attributes.
+          local_path: !ENV ${WORKrnr}/${EXPTrnr}/${CYCLE}/intercom/inputs/obs/ocean/ers2.adt.iodav2.nc
+          offset_seconds: 21600
+
+          # Define the AWS s3 attributes.
+          bucket: noaa-reanalyses-pds
+          object_path: observations/reanalysis/adt/ers2/%Y/%m/iodav2/ers2.adt.%Y%m%d.T120000Z.iodav2.nc
+          profile_name: Null
+          ignore_missing: True
+
+     adt.jason2:
+
+          # Define the path attributes.
+          local_path: !ENV ${WORKrnr}/${EXPTrnr}/${CYCLE}/intercom/inputs/obs/ocean/jason2.adt.iodav2.nc
+          offset_seconds: 21600
+
+          # Define the AWS s3 attributes.
+          bucket: noaa-reanalyses-pds
+          object_path: observations/reanalysis/adt/jason2/%Y/%m/iodav2/jason2.adt.%Y%m%d.T120000Z.iodav2.nc
+          profile_name: Null
+          ignore_missing: True
+
+     adt.jason3:
+
+          # Define the path attributes.
+          local_path: !ENV ${WORKrnr}/${EXPTrnr}/${CYCLE}/intercom/inputs/obs/ocean/jason3.adt.iodav2.nc
+          offset_seconds: 21600
+
+          # Define the AWS s3 attributes.
+          bucket: noaa-reanalyses-pds
+          object_path: observations/reanalysis/adt/jason3/%Y/%m/iodav2/jason3.adt.%Y%m%d.T120000Z.iodav2.nc
+          profile_name: Null
+          ignore_missing: True
+
+     adt.saral:
+
+          # Define the path attributes.
+          local_path: !ENV ${WORKrnr}/${EXPTrnr}/${CYCLE}/intercom/inputs/obs/ocean/saral.adt.iodav2.nc
+          offset_seconds: 21600
+
+          # Define the AWS s3 attributes.
+          bucket: noaa-reanalyses-pds
+          object_path: observations/reanalysis/adt/saral/%Y/%m/iodav2/saral.adt.%Y%m%d.T120000Z.iodav2.nc
+          profile_name: Null
+          ignore_missing: True
+     adt.sentinel3a:
+
+          # Define the path attributes.
+          local_path: !ENV ${WORKrnr}/${EXPTrnr}/${CYCLE}/intercom/inputs/obs/ocean/sentinel3a.adt.iodav2.nc
+          offset_seconds: 21600
+
+          # Define the AWS s3 attributes.
+          bucket: noaa-reanalyses-pds
+          object_path: observations/reanalysis/adt/sentinel3a/%Y/%m/iodav2/sentinel3a.adt.%Y%m%d.T120000Z.iodav2.nc
+          profile_name: Null
+          ignore_missing: True
+
+     adt.sentinel3b:
+
+          # Define the path attributes.
+          local_path: !ENV ${WORKrnr}/${EXPTrnr}/${CYCLE}/intercom/inputs/obs/ocean/sentinel3b.adt.iodav2.nc
+          offset_seconds: 21600
+
+          # Define the AWS s3 attributes.
+          bucket: noaa-reanalyses-pds
+          object_path: observations/reanalysis/adt/sentinel3b/%Y/%m/iodav2/sentinel3b.adt.%Y%m%d.T120000Z.iodav2.nc
+          profile_name: Null
+          ignore_missing: True
+
+     adt.topex_poseidon:
+
+          # Define the path attributes.
+          local_path: !ENV ${WORKrnr}/${EXPTrnr}/${CYCLE}/intercom/inputs/obs/ocean/topex_poseidon.adt.iodav2.nc
+          offset_seconds: 21600
+
+          # Define the AWS s3 attributes.
+          bucket: noaa-reanalyses-pds
+          object_path: observations/reanalysis/adt/topex_poseidon/%Y/%m/iodav2/topex_poseidon.adt.%Y%m%d.T120000Z.iodav2.nc
+          profile_name: Null
+          ignore_missing: True
+
+# ----
+
+globus: Null

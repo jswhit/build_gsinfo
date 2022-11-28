@@ -1,0 +1,56 @@
+# $$$ YAML DOCUMENTATION BLOCK
+
+# DESCRIPTION:
+
+# This YAML formatted file contains the Unified Forecasting System
+# (UFS) Reforecast and Reanalysis (RNR) file fetching information for
+# the various UFS-RNR application inputs.
+
+# ----
+
+# TABLE 1: SUPPORTED REMOTE LOCATIONS FROM WHICH TO FETCH:
+
+# The supported remote locations from which to fetch the respective
+# UFS-RNR application inputs (i.e., YAML keys) are as follows:
+
+# | Remote Name  | Description
+# | ------------ | -----------
+# |    aws_s3    | All Amazon Web Services (AWS) s3 file system retrievals.
+#
+# |   noaa_hpss  | All National Oceanic and Atmospheric Administration
+#                  (NOAA) High-Performance Storage System (HPSS)
+#                  retrievals.
+# |   globus     | All globus file transfer retrievals.
+
+# ----
+
+# TABLE 2: KEY AND VALUE PAIRS REQUIRED TO FETCH FROM A SPECIFIED
+# SUPPORTED REMOTE LOCATION:
+
+# For each supported remote location type, the following YAML key and
+# value pairs are required; descriptions for each supporte remove
+# location type are provided in subsequent tables/documentation.
+
+# |  YAML Key   | Description
+# | ----------  | -----------
+
+# | remote_path | This is the path to the respective file to be
+# |               fetched from the supported remote location; POSIX
+# |               compliant timestamp templating is supported.
+
+# | local_path  | This is the path to where the respective fetched file
+# |               is to be staged on the local platform; POSIX
+# |               compliant timestamp templating is supported.
+
+# ----
+
+# TABLE 3: AWS S3 YAML-FORMATTED KEY AND VALUE PAIR DESCRIPTIONS.
+
+# The following are the attributes required to collect files from a
+# remote AWS s3 file system.
+
+# |  YAML Key   | Description
+# | ----------  | -----------
+
+# ----
+
