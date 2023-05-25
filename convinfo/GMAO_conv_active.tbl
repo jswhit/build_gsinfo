@@ -1,4 +1,4 @@
-
+# only 290 (ascat) and cosmic (750-745) change with time.
 #<subty>  <from>            <to>      <type> m    <otypes>
 0    19000101 000000   29991231 240000   003 0    	#   1    gps
 0    19000101 000000   29991231 240000   004 1    gps
