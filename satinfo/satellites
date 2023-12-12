@@ -32,6 +32,12 @@ cris-fsr_npp
 cris-fsr_n20
 cris-fsr_n21
 gmi_gpm
+hirs2_tirosn
+hirs2_n06
+hirs2_n07
+hirs2_n08
+hirs2_n09
+hirs2_n10
 hirs2_n11
 hirs2_n12
 hirs2_n14
@@ -49,6 +55,12 @@ mhs_metop-b
 mhs_metop-c
 mhs_n18
 mhs_n19
+msu_tirosn
+msu_n06
+msu_n07
+msu_n08
+msu_n09
+msu_n10
 msu_n11
 msu_n12
 msu_n14
@@ -74,5 +86,10 @@ ssmi_f15
 ssmis_f16
 ssmis_f17
 ssmis_f18
+ssu_tirosn
+ssu_n06
+ssu_n07
+ssu_n08
+ssu_n09
 ssu_n11
 ssu_n14
