@@ -12,7 +12,7 @@ for sat in $(cat satellites); do
 	   if [ $date -eq $datex ]; then
               useflags=`awk '{print $3}' $f`
 	      for flag in $useflags; do
-                 if [ $flag -eq 1 ]; then
+                 if [ $flag -gt 0 ]; then
                     newsat=1
 		    ((newsats+=1))
                  fi
